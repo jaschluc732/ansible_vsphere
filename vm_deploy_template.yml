@@ -17,7 +17,7 @@ tasks:
         validate_certs: no
         datacenter: "{{ datacenter_name }}"
         folder: "{{ vm_folder }}"
-        name: vm-vrf1
+        name: "{{ vm_hostname }}"
         cluster: "{{ vcenter_cluster }}"
         template: "{{ template_name }}"
         customization_spec:
