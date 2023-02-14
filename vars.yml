@@ -7,3 +7,6 @@ vcenter_cluster: "prod"
 vcenter_validate_certs: false
 vm_template: "Ubuntu-2204-Template-100GB-Thin"
 vm_state: "poweron"
+hosts: 
+  - vm-vrf1
+  - vm-vrf2
