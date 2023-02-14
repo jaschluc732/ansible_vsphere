@@ -2,12 +2,22 @@
 vcenter_hostname: "vca70.eveng.dev"
 vcenter_username: "administrator@vsphere.local"
 vcenter_password: "Admin!2345"
-vcenter_datacenter: "NSX-T"
+datacenter_name: "NSX-T"
 vcenter_cluster: "prod"
 esxi_hostname: "pcs-esxi1.eveng.dev"
 vcenter_validate_certs: false
-vm_template: "Ubuntu-2204-Template-100GB-Thin"
+template_name: "Ubuntu-2204-Template-100GB-Thin"
+domain_name: "vrf.dev"
+dns_servers: "8.8.8.8"
+ip_address: 
+  - 192.168.1.120
+  - 192.168.1.121
+subnet_mask: "24"
+gateway: "192.168.1.1"
+memory: "4096"
+vcpu: "4"
+disk_size: "100"
 vm_state: "poweredon"
 hosts: 
-  - vm-vrf1
-  - vm-vrf2
+  - {name: vm-vrf1}
+  - {name: vm-vrf2}
