@@ -4,9 +4,10 @@ vcenter_username: "administrator@vsphere.local"
 vcenter_password: "Admin!2345"
 vcenter_datacenter: "NSX-T"
 vcenter_cluster: "prod"
+esxi_hostname: "pcs-esxi1.eveng.dev"
 vcenter_validate_certs: false
 vm_template: "Ubuntu-2204-Template-100GB-Thin"
-vm_state: "poweron"
+vm_state: "poweredon"
 hosts: 
   - vm-vrf1
   - vm-vrf2
