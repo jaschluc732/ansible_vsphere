@@ -1,10 +1,9 @@
 ---
-vcenter_hostname: "vmware.example.com"
-vcenter_datacenter: "vmwaredatacenter"
-vcenter_validate_certs: false
+vcenter_hostname: "vca70.eveng.dev"
 vcenter_username: "administrator@vsphere.local"
 vcenter_password: "Admin!2345"
-vm_name: "myvm"
-vcenter_destination_folder: ""
-vm_state: "poweroff"
-vm_template: "mytemplate"
+vcenter_datacenter: "NSX-T"
+vcenter_cluster: "prod"
+vcenter_validate_certs: false
+vm_template: "Ubuntu-2204-Template-100GB-Thin"
+vm_state: "poweron"
