@@ -23,7 +23,7 @@ tasks:
         customization_spec:
           domain: "{{ domain_name }}"
           dns_servers: "{{ dns_servers }}"
-          ip_address: "{{ ip_address }}"
+          ip_address: "{{ item.ipaddress }}"
           subnet_mask: "{{ subnet_mask }}"
           gateway: "{{ gateway }}"
         hardware:
