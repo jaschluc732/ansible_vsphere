@@ -33,4 +33,4 @@
           - size_gb: "{{ disk_size }}"
             type: thin
         state: present
-      with_items: "{{ hosts }}"
+      with_items: "{{ vms }}"
