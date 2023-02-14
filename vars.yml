@@ -1,22 +1,22 @@
 ---
-vcenter_hostname: "vca70.eveng.dev"
-vcenter_username: "administrator@vsphere.local"
-vcenter_password: "Admin!2345"
-datacenter_name: "NSX-T"
-vcenter_cluster: "prod"
-datastore: "esxi1"
-esxi_hostname: "pcs-esxi1.eveng.dev"
-vm_folder: "VRF-VMs"
+vcenter_hostname: vca70.eveng.dev
+vcenter_username: administrator@vsphere.local
+vcenter_password: Admin!2345
+datacenter_name: NSX-T
+vcenter_cluster: prod
+datastore: esxi1
+esxi_hostname: pcs-esxi1.eveng.dev
+vm_folder: VRF-VMs
 vcenter_validate_certs: false
-template_name: "Ubuntu-2204-Template-100GB-Thin"
-domain_name: "vrf.dev"
-dns_servers: "8.8.8.8"
-subnet_mask: "24"
-gateway: "192.168.1.1"
-memory: "4096"
-vcpu: "4"
-disk_size: "100"
-vm_state: "poweredon"
+template_name: Ubuntu-2204-Template-100GB-Thin
+domain_name: vrf.dev
+dns_servers: 8.8.8.8
+subnet_mask: 24
+gateway: 192.168.1.1
+memory: 4096
+vcpu: 4
+disk_size: 100
+vm_state: poweredon
 vms: 
-  - {"name": "vm-vrf1", "ipaddress": "192.168.1.120"}
-  - {"name": "vm-vrf2", "ipaddress": "192.168.1.121"}
+  - {name: vm-vrf1, ipaddress: 192.168.1.120}
+  - {name: vm-vrf2, ipaddress: 192.168.1.121}
