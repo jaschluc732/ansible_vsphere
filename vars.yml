@@ -5,7 +5,7 @@ vcenter_password: "Admin!2345"
 datacenter_name: "NSX-T"
 vcenter_cluster: "prod"
 esxi_hostname: "pcs-esxi1.eveng.dev"
-vm-folder: "VRF-VMs"
+vm_folder: "VRF-VMs"
 vcenter_validate_certs: false
 template_name: "Ubuntu-2204-Template-100GB-Thin"
 domain_name: "vrf.dev"
