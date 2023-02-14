@@ -10,8 +10,8 @@ template_name: "Ubuntu-2204-Template-100GB-Thin"
 domain_name: "vrf.dev"
 dns_servers: "8.8.8.8"
 ip_address: 
-  - 192.168.1.120
-  - 192.168.1.121
+  - {ipaddress: 192.168.1.120}
+  - {ipaddress: 192.168.1.121}
 subnet_mask: "24"
 gateway: "192.168.1.1"
 memory: "4096"
