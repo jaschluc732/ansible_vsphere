@@ -1,6 +1,7 @@
 ---
 - name: Create Ubuntu VM
   hosts: localhost
+  connection: local 
   become: false
   gather_facts: false
   collections:
