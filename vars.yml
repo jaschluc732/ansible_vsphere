@@ -4,6 +4,7 @@ vcenter_username: "administrator@vsphere.local"
 vcenter_password: "Admin!2345"
 datacenter_name: "NSX-T"
 vcenter_cluster: "prod"
+datastore: "esxi1"
 esxi_hostname: "pcs-esxi1.eveng.dev"
 vm_folder: "VRF-VMs"
 vcenter_validate_certs: false
