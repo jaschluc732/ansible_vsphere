@@ -16,7 +16,6 @@
         password: "{{ vcenter_password }}"
         validate_certs: no
         datacenter: "{{ datacenter_name }}"
-        folder: "{{ vm_folder }}"
         name: "{{ item.name }}"
         cluster: "{{ vcenter_cluster }}"
         template: "{{ template_name }}"
