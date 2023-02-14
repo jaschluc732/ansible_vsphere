@@ -19,6 +19,7 @@
         folder: "{{ vm_folder }}"
         name: "{{ item.name }}"
         cluster: "{{ vcenter_cluster }}"
+        datastore: "{{ datastore }}"
         template: "{{ template_name }}"
         customization_spec:
           domain: "{{ domain_name }}"
