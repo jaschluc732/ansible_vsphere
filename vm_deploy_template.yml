@@ -4,6 +4,8 @@
   connection: local 
   become: false
   gather_facts: false
+  vars_files:
+    - vars.yml
   collections:
     - community.vmware
   tasks:
